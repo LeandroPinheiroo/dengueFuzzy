@@ -4,7 +4,7 @@
 <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>MiniCurso</title>
+  <title>Fuzzy Dengue-Chikungunya-Zika</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -30,7 +30,6 @@
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')   }}">  
   
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -54,7 +53,7 @@
     <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>MiniCurso</b></span>
+      <span class="logo-lg"><b>Fuzzy DCZ</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -62,18 +61,11 @@
       <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
         <span class="sr-only">Toggle navigation</span>
       </a>
-
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- Messages: style can be found in dropdown.less-->
           <!-- User Account: style can be found in dropdown.less -->
           <li>
-            <form action="" method="POST">
-              @csrf
-              <button type="submit" class = "btn btn-primary" name = "logout">
-                  Sair
-              </button>
-            </form>
           </li>          
         </ul>
       </div>
@@ -115,7 +107,7 @@
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
     </div>
-    <strong>Copyright &copy; 2019 <a href="https://adminlte.io">Leandro Pinheiro</a>.</strong> All rights
+    <strong>Copyright &copy; 2019 <a href="#">Leandro Pinheiro</a>.</strong> All rights
     reserved.
   </footer>
 
@@ -148,7 +140,6 @@
 <!-- AdminLTE for demo purposes -->
 <script src="{{ asset('js/demo.js') }}"></script>
 
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

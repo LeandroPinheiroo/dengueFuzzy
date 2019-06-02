@@ -4,7 +4,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <form>
+            <form enctype="multipart/form-data" action = "{{ route('gera_solucao') }}" method = "POST">
+                @csrf
                 <div class="form-group">
                   <label for="arquivo">Importar Dados</label>
                   <input type="file" name="file" id="file" class="form-control jfilestyle" data-buttonText="Escolher arquivo"accept="image/*"  />

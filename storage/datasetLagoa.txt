@@ -1,0 +1,30 @@
+39;Baixa;Baixa;Alta;Media;Media;Baixa;Baixa;Media;Baixa
+38.4;Alta;Baixa;Media;Media;Baixa;Media;Baixa;Alta;Media
+37.5;Alta;Media;Media;Baixa;Alta;Media;Media;Media;Inesistente
+38.7;Media;Media;Media;Alta;Baixa;Alta;Alta;Alta;Inesistente
+39;Inesistente ;Alta;Alta;Inesistente;Media;Baixa;Inesistente;Inesistente;Inesistente
+38;Alta;Baixa;Alta;Baixa;Alta;Inesistente;Baixa;Media;Baixa
+37;9;Media;Inesistente;Inesistente;Media;Baixa;Baixa;Media;Alta;Baixa
+38.1;Media;Media;Alta;Alta;Inesistente;Alta;Alta;Inesistente;Baixa
+38.8;Media;Alta;Media;Media;Media;Media;Baixa;Media;Baixa
+39.2;Baixa;Media;Alta;Alta;Baixa;Inesistente;Media;Alta;Inesistente
+38;Inesistente ;Media;Baixa;Alta;Media;Alta;Alta;Inesistente;Inesistente
+37.7;Baixa;Media;Baixa;Media;Alta;Media;Inesistente;Media;Inesistente
+39.3;Media;Baixa;Media;Inesistente;Inesistente;Alta;Media;Media;Inesistente
+38.3;Inesistente ;Media;Alta;Baixa;Media;Baixa;Inesistente;Alta;Inesistente
+38.9;Alta;Baixa;Alta;Media;Alta;Media;Alta;Media;Baixa
+38.2;Baixa;Media;Media;Alta;Media;Alta;Alta;Alta;Baixa
+37.8;Media;Inesistente;Alta;Inesistente;inesistente;Alta;Media;Media;Inesistente
+38.5;Baixa;Media;Baixa;Baixa;Alta;Alta;Media;Inesistente;Inesistente
+38.6;Alta;Media;Media;Media;Alta;Media;Baixa;Alta;Inesistente
+39.2;Inesistente ;Media;Alta;Alta;Media;Baixa;Baixa;Alta;Inesistente
+38;Inesistente ;Media;Media;Media;Baixa;Media;Baixa;Media;Inesistente
+39.2;Media;Media;Inesistente;Alta;Alta;Baixa;Baixa;Baixa;Inesistente
+38.3;Alta;Baixa;Baixa;Media;Baixa;Alta;Media;Media;Inesistente
+38.2;Alta;Inesistente;Alta;Baixa;Media;Baixa;Media;Baixa;Inesistente
+38;Media;Baixa;Media;Inesistente;Baixa;Alta;Alta;Baixa;Inesistente
+39.4;Media;Alta;Media;Alta;Alta;Media;Media;Media;Inesistente
+38.6;Media;Media;Alta;Baixa;Media;Alta;Alta;Alta;Inesistente
+38.8;Baixa;Baixa;Media;Media;Inesistente;Inesistente;Media;Media;Inesistente
+37.9;Inesistente ;Alta;Media;Baixa;Alta;Media;Alta;Baixa;Inesistente
+38.3;Inesistente ;Alta;Alta;Alta;Media;Alta;Media;Baixa;Inesistente

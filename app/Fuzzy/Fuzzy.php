@@ -25,7 +25,8 @@ class Fuzzy
     }
 
     /**
-     * Funcao para calcular a solucao da logica Fuzzy utilizando operador MIN MAX
+     * Funcao para calcular a solucao da logica Fuzzy 
+     * Utilizando operador MIN MAX proposto no artigo
     */
     public function calcula_solucao(){
         //Cria matriz de resposta

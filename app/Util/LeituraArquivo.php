@@ -19,7 +19,7 @@ class LeituraArquivo
                     return null;//retorna null
                 }
                 //falta verificar melhor forma para quantificar os valores
-                //$csv = LeituraArquivo::quantifica_valores($csv);
+                $csv = LeituraArquivo::quantifica_valores($csv);
                 //caso contrario joga todas as posicoes na linha em questado da matriz
                 $pacientes_sintomas[$i] = $csv;
                 //soma para a proxima linha
@@ -53,7 +53,7 @@ class LeituraArquivo
             $csv[0] = 0.9 * ($csv[0] / 40);
         }
         //para os demais valores
-        for($i = 1; $i < sizeof($csv); $i++){
+        for($i = 1; $i < 10; $i++){
             if($csv[$i] == "Inesistente"){//se inesistente seta 0%
                 $csv[$i] = 0;
             }else if($csv[$i] == "Baixa"){//se Baixa seta 30%
@@ -65,6 +65,11 @@ class LeituraArquivo
             else if($csv[$i] == "Alta"){//se Alta seta 100%
                 $csv[$i] = 1;
             }
+        }
+        //caso array maior que 10 elementos
+        if(sizeof($csv) > 10){
+            //remove o elemento
+            array_pop($csv);
         }
         //retorna valores quantificados
         return $csv;

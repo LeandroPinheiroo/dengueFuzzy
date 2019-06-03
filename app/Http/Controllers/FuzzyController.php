@@ -30,6 +30,7 @@ class FuzzyController extends Controller
                 //retorna para a view
                 return redirect()->back()->withErrors(['erro'=>'Ocorreu um erro ao gerar o resultado']);
             }
+            //retorna resultado
             return view('resultado',['matriz_resultado'=>$resultado]);
         }
         //retorna para a view anterior

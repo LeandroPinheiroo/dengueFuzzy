@@ -18,7 +18,8 @@ class LeituraArquivo
                 if(sizeof($csv) < 10){// se menor que 10 indica que o arquivo nao foi montado corretamente
                     return null;//retorna null
                 }
-                $csv = LeituraArquivo::quantifica_valores($csv);
+                //falta verificar melhor forma para quantificar os valores
+                //$csv = LeituraArquivo::quantifica_valores($csv);
                 //caso contrario joga todas as posicoes na linha em questado da matriz
                 $pacientes_sintomas[$i] = $csv;
                 //soma para a proxima linha
@@ -33,6 +34,7 @@ class LeituraArquivo
     /**
      * Funcao para quantificar valores do arquivo csv
      * Indica valores de febre acima de 40º para 100%
+     * Funcao ainda nao definida...
      */
     public static function quantifica_valores($csv){
         //converte valor de febre para float

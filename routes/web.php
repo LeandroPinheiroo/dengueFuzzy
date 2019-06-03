@@ -13,6 +13,5 @@
 
 Route::get('/', function () {
     return view('home');
-});
-Route::post('/gera_solucao','FuzzyController@gera_solucao')->name('gera_solucao');
+})->name('home');
 Route::post('/gera_solucao',"FuzzyController@gera_solucao")->name('gera_solucao');

@@ -19,13 +19,20 @@ class FuzzyController extends Controller
             //caso retorne null indica que houve erro ao ler do arquivo
             if($pacientes_sintomas == null){
                 //retorna para a view
-                return redirect()->back();
+                return redirect()->back()->withErrors(['erro'=>'Ocorreu um erro ao ler arquivo']);
             }
             //cria objeto para realizar fuzzy
             $fuzzy = new Fuzzy($pacientes_sintomas);
             //calcula solucao e retorna o resultado
             $resultado = $fuzzy->calcula_solucao();
+            //Caso resultado null
+            if($resultado == null){
+                //retorna para a view
+                return redirect()->back()->withErrors(['erro'=>'Ocorreu um erro ao gerar o resultado']);
+            }
             return view('resultado',['matriz_resultado'=>$resultado]);
         }
+        //retorna para a view anterior
+        return redirect()->back()->withErrors(['erro'=>'Arquivo de entrada não informado']);
     }
 }

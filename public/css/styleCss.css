@@ -1,0 +1,189 @@
+ @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+    padding-bottom:60px;
+
+.ccheader {
+      margin: 0 auto;
+      padding: 2em;
+      text-align: center;
+    }
+
+    .ccform {
+      margin: 0 auto;
+      width: 800px;
+    }
+    .ccfield-prepend{
+      margin-bottom:20px;
+      width:100%;
+    }
+
+    .ccform-addon{
+      color:#00FF00; 
+      float:left;
+      padding:8px;
+      width:8%;
+      background:#FFFFFF;
+      text-align:center;  
+    }
+
+   .ccformfieldtarefas {
+  display: block;
+  width: 91.9%;
+  height: 34px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+
+   }
+textarea.ccformfieldtarefas {
+  height: auto;
+}
+
+
+    .ccformfieldtarefas {
+      font-family: 'Lato',Arial,sans-serif;
+      border-radius: 10px;
+    }
+
+    .iconeAlterar{
+      color:#FFFFFF; 
+      padding:3px;
+      width:7%;
+    }
+
+    
+    .ccformfield {
+      color:#000000; 
+      background:#FFFFFF;
+      border:1px solid #D3D3D3;
+      padding:7px;
+      width:21%;
+      display:block;
+      font-family: 'Lato',Arial,sans-serif;
+      font-size:14px;
+    }
+
+    .ccformfield {
+      font-family: 'Lato',Arial,sans-serif;
+      border-radius: 10px;
+    }
+
+    .ccbtn{
+      display:block;
+      border:none;
+      background:#00FF00;
+      color:#FFFFFF;
+      padding:12px 25px;
+      cursor:pointer;
+      text-decoration:none;
+      font-weight:bold;
+    } 
+
+    .cctext{
+      font-family: 'Lato',Arial,sans-serif;
+    }
+
+    .flexContainer {
+      display: flex;
+      width: 60%;
+    }
+
+    .inputField {
+      flex: 1;
+      color:#000000; 
+      background:#FFFFFF;
+      border:1px solid #D3D3D3;
+      padding:7px;
+      width:21%;
+      display:block;
+      font-family: 'Lato',Arial,sans-serif;
+      font-size:14px;
+      border-radius: 10px;
+    }
+
+    .table-striped .celulaEmEdicao input[type=text]{
+      width:100%;
+      border:0;
+      background-color:rgb(255,253,210);  
+    }
+
+    .ccInput{
+      color:#000000; 
+      background:transparent;
+      border:0;
+      padding:3px;
+      width:100%;
+      font-family: 'Lato',Arial,sans-serif;
+      font-size:14px;
+      text-align: center;
+    }
+
+    .ccformarea {
+      color:#000000; 
+      background:#FFFFFF;
+      border:1px solid #D3D3D3;
+      padding:30px;
+      width:92%;
+      font-family: 'Lato',Arial,sans-serif;
+      font-size:14px;
+      resize: none;
+    }
+
+     .btn-circle {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 12px;
+      line-height: 1.428571429;
+      border-radius: 15px;
+    }
+
+    .ccformfieldLarge {
+    color:#000000; 
+    background:#FFFFFF;
+    border:1px solid #D3D3D3;
+    padding:7px;
+    width:35%;
+    display:block;
+    font-family: 'Lato',Arial,sans-serif;
+    font-size:14px;
+    border-radius: 10px;
+  }
+
+  .ccform-addon2{
+      color:#00FF00; 
+      float:left;
+      padding:8px;
+      width:20%;
+      background:#FFFFFF;
+      text-align:center;  
+    }
+
+    .table-striped .celulaEmEdicao input[type=text]{
+      width:100%;
+      border:0;
+      background-color:rgb(255,253,210);  
+    }
+
+    .campodetexto {
+  display: block;
+  width: 21%;
+  height: 34px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Lato',Arial,sans-serif;
+ border-radius: 10px;
+
+
+   }

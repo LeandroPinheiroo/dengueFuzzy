@@ -8,10 +8,10 @@
             <table class="table table-striped" style="text-align:center">
                 <tr>
                     <thead class="thead-dark">
-                            <th style="text-align:left; width:10%;">#</th>
-                            <th>Dengue</th>
-                            <th>Chikungunya</th>
-                            <th>Zika</th>
+                        <th style="text-align:left; width:10%;">#</th>
+                        <th>Dengue</th>
+                        <th>Chikungunya</th>
+                        <th>Zika</th>
                     </thead>
                 </tr>
                 @for($i = 0; $i < sizeof($matriz_resultado); $i++)
